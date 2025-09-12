@@ -13,7 +13,6 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 warnings.filterwarnings("ignore", category=SyntaxWarning)
 
 from utils import *
-from proto import *
 
 base_dir = os.path.dirname(__file__)
 data_dir = os.path.abspath(os.path.join(base_dir, 
