@@ -1,6 +1,5 @@
 import zipfile
 import random
-import time
 import numpy as np
 import networkx as nx
 from scipy.stats import entropy
@@ -88,10 +87,3 @@ def graph_from_dict(d):
     g.add_nodes_from(d['nodes'])
     g.add_edges_from(d['edges'])
     return g
-
-
-def get_runtime(func, **kwargs):
-    t0 = time.time()
-    r = func(**kwargs)
-    t1 = time.time()
-    return r, t1-t0
