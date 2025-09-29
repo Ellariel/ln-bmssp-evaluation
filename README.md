@@ -7,7 +7,7 @@ Valko, D., Paranjpe, R. & Marx Gómez, J. (2025). Outperforming Dijkstra on Spar
 ```sh
 @misc{ValkoParanjpeMarxGomez2025,
 title={Outperforming Dijkstra on Sparse Graphs: The Lightning Network Use Case}, 
-author={Danila Valko and Rohan Paranjpe and Jorge Marx Gómez},
+author={Danila Valko and Rohan Paranjpe and Jorge {Marx Gómez}},
 year={2025},
 publisher={arXiv},
 howpublished={arXiv},
